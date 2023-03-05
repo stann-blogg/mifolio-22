@@ -47,8 +47,9 @@ body{
     /* background-color: rgb(18, 85, 63); */
     border: 3px solid rgb(219, 210, 170);
     padding: 10px 5px;
-    background-color:  rgb(227, 229, 236);
+    /* background-color:  rgb(227, 229, 236); */
     margin: 20px 2px;
+    box-shadow: 20px 10px 30px rgba(7, 3, 3, 0.966);
    width: 300px;
    height: 300px;
    /* overflow: hidden; */
@@ -97,22 +98,23 @@ body{
     align-items: center;
     justify-content: center;
     max-width: 100%;
+    padding: 10px;
     z-index: 1;
+    /* background-image: url(images/dd.jpg); */
     
 }
 .solutions .projects{
     border: 3px solid rgb(219, 210, 170);
     padding: 10px 5px;
-    /* background-color:  rgb(227, 229, 236); */
     margin: 20px 2px;
-   width: 300px;
-   height: 300px;
+    width: 300px;
+    height: 400px;
+    padding-bottom: 0px;
    /* overflow: hidden; */
    text-align: center;
    border-radius: 10px;
-   backdrop-filter: blur(10px);
-   /* border: 1px solid rgb(14, 14, 26); */
-   box-shadow: 20px 10px 30px rgba(7, 3, 3, 0.966);
+   /* backdrop-filter: blur(10px); */
+   /* box-shadow: 20px 10px 30px rgba(7, 3, 3, 0.966); */
 }
 .solutions .projects h5{
     font-size: 30px;
@@ -126,4 +128,50 @@ body{
     border: 1px solid rgb(17, 12, 5);
     border-radius: 10px;
     padding: 10px;
+}
+.solutions .projects h5{
+    font-size: 25px;
+    color: rgb(5, 5, 27);
+}
+.solutions .projects p{
+    font-size: 20px;
+    color:  rgb(5, 5, 27);
+}
+.projects img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid  rgb(243, 237, 239);
+    box-shadow: 20px 10px 30px rgba(7, 3, 3, 0.966);
+
+}
+.projectss{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+.projectss h5{
+    font-size: 25px;
+    color: rgb(5, 5, 27);
+    padding: 10px;
+}
+.projectss .me{
+    padding: 20px;
+    
+}
+.projectss .me p{
+    font-size: 20px;
+    color:  rgb(5, 5, 27); 
+}
+.projectss .me a{
+    text-decoration: none;
+    color: rgb(7, 7, 29);
+    border: 1px solid rgb(17, 12, 5);
+    border-radius: 10px;
+    padding: 10px;
+
 }
